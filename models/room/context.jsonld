@@ -7,7 +7,17 @@
                 "@id": "geojson:bbox"
             },
             "owner": "https://smartdatamodels.org/owner",
-            "refPilot": "https://smartdatamodels.org/dataModel.Environment/refPointOfInterest"
+            "refPilot": {
+                "oneOf": [
+                    {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    {
+                        "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
+                    }
+                ]
+            }
         },
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
     ]
