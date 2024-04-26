@@ -7,7 +7,7 @@
                 "@id": "geojson:bbox"
             },
             "owner": "https://smartdatamodels.org/owner",
-            "refPilot": "ngsi-ld:Relationship"
+            "refPilot": "https://smartdatamodels.org/dataModel.Environment/refPointOfInterest"
         },
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
     ]
