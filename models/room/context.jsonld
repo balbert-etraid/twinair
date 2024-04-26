@@ -7,8 +7,7 @@
                 "@id": "geojson:bbox"
             },
             "owner": "https://smartdatamodels.org/owner",
-            "buildingTypeChildren": "https://smartdatamodels.org/dataModel.Building/buildingTypeChildren",
-            "buildingTypeParent": "https://smartdatamodels.org/dataModel.Building/buildingTypeParent"
+            "refPilot": "https://smartdatamodels.org/dataModel.Building/buildingTypeParent"
         },
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
     ]
