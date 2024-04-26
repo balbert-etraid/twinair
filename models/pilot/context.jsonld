@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+        "id": "@id",
+        "type": "@type",
+        "name": "https://smartdatamodels.org/name",
+        "location": "ngsi-ld:location",
+        "address": "https://smartdatamodels.org/address",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
+        "owner": "https://smartdatamodels.org/owner",
+        "root": "https://smartdatamodels.org/dataModel.Building/root"
+    }
+}
