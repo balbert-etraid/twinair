@@ -1,0 +1,15 @@
+{
+    "@context": [
+        {
+            "refPilot": {
+                "@type": "https://uri.etsi.org/ngsi-ld/Relationship",
+                "@id": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld"
+            },
+            "refRoom": {
+                "@type": "https://uri.etsi.org/ngsi-ld/Relationship",
+                "@id": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/room/context.jsonld"
+            }
+        },
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
+    ]
+}
