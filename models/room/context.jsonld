@@ -8,8 +8,8 @@
             },
             "owner": "https://smartdatamodels.org/owner",
             "refPilot": {
-                "type": "ngsi-ld:Relationship",
-                "object": "ngsi-ld:uri"
+                "@type": "ngsi-ld:Relationship",
+                "@object": "ngsi-ld:uri"
             }
         },
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
