@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/room/context.jsonld",
+    "id": "urn:ngsi-ld:Room:Room1",
+    "type": "Room",
+    "name": "ETRA ROOM 1",
+    "description": "ETRA ROOM 1 under TwinAIR project",
+    "refPilot": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Pilot:etra"
+    },
+    "root": false,
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            -0.4083845938719212,
+            39.46308953658023
+        ]
+    }
+}
