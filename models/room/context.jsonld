@@ -8,7 +8,7 @@
             },
             "owner": "https://smartdatamodels.org/owner",
             "refPilot": {
-                "@type": "Relationship",
+                "@type": "https://uri.etsi.org/ngsi-ld/Relationship",
                 "object": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld"
             }
         },
