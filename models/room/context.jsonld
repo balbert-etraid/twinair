@@ -1,17 +1,18 @@
 {
     "@context": [
-        {
-            "root": "https://smartdatamodels.org/dataModel.Building/root",
-            "bbox": {
-                "@container": "@list",
-                "@id": "geojson:bbox"
-            },
-            "owner": "https://smartdatamodels.org/owner",
-            "refPilot": {
-                "@type": "https://uri.etsi.org/ngsi-ld/Relationship",
-                "object": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld"
-            }
+      {
+        "root": "https://smartdatamodels.org/dataModel.Building/root",
+        "bbox": {
+          "@container": "@list",
+          "@id": "geojson:bbox"
         },
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
+        "owner": "https://smartdatamodels.org/owner",
+        "refPilot": {
+          "@type": "https://uri.etsi.org/ngsi-ld/Relationship",
+          "value": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld",
+          "object": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld"
+        }
+      },
+      "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
     ]
-}
+  }
