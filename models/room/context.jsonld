@@ -9,7 +9,7 @@
             "owner": "https://smartdatamodels.org/owner",
             "refPilot": {
                 "@type": "Relationship",
-                "object": "https://uri.etsi.org/ngsi-ld/default-context/Pilot"
+                "object": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld"
             }
         },
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
