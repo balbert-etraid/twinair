@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "warningHours": {
+            "@id": "warningHours",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
+        "criticalHours": {
+            "@id": "criticalHours",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
+        "currentHours": {
+            "@id": "currentHours",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+    }
+}
