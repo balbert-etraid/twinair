@@ -20,6 +20,7 @@
             "@max": 10
         },
         "filters": {
+            "@id": "filters",
             "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/fsystems/filter/context.jsonld",
             "@container": "@set"
         },
