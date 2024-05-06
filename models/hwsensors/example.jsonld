@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/room/context.jsonld",
+    "id": "urn:ngsi-ld:hwsensors:16670",
+    "type": "hwsensors",
+    "name": "16670",
+    "description": "Smart Citizen 16670",
+    "refPilot":  "urn:ngsi-ld:pilot:etra",
+    "refRoom": "urn:ngsi-ld:room:Room1",
+    "source": "https://api.smartcitizen.me/v0/devices/16670",
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            60.170833,
+            4.9375,
+            32.339
+        ]
+    },
+    "airTemperature": 17.08,
+    "humidity": 12.25,
+    "observationDateTime": "2024-01-09T15:24:28Z"
+}
