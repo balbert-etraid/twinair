@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/room/context.jsonld",
+    "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/hwsensors/context.jsonld",
     "id": "urn:ngsi-ld:hwsensors:16670",
     "type": "hwsensors",
     "name": "16670",
