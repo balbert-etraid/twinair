@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/fsystems/context.jsonld",
+    "id": "urn:ngsi-ld:fsystems:AIRplus8C4B149DAAA0",
+    "type": "hwsensors",
+    "name": "AIRplus8C4B149DAAA0",
+    "description": "AIRplus8C4B149DAAA0",
+    "refPilot": "urn:ngsi-ld:pilot:etra",
+    "refRoom": "urn:ngsi-ld:room:Room1",
+    "activePower": 1200,
+    "fanLevel": 6,
+    "filters": [
+        {
+            "name": "G4",
+            "warningHours": 8040,
+            "criticalHours": 8760,
+            "currentHours": 530
+        },
+        {
+            "name": "GR-SYSTEM",
+            "warningHours": 34320,
+            "criticalHours": 35040,
+            "currentHours": 530
+        },
+        {
+            "name": "ULPA15",
+            "warningHours": 34320,
+            "criticalHours": 35040,
+            "currentHours": 530
+        }
+    ],
+    "observationDateTime": "2024-01-09T15:24:28Z"
+}
