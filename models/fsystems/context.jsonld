@@ -20,8 +20,7 @@
             "@max": 10
         },
         "filters": {
-            "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/fsystems/filter/context.jsonld",
-            "@type": "@json",
+            "@type": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/fsystems/filter/context.jsonld",
             "@container": "@set"
         },
         "observationDateTime": "https://smartdatamodels.org/dataModel.Environment/observationDateTime"
