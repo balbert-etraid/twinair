@@ -1,15 +1,29 @@
 {
-    "@context": [
-        {
-            "refPilot": {
-                "@type": "https://uri.etsi.org/ngsi-ld/Relationship",
-                "@id": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld"
-            },
-            "refRoom": {
-                "@type": "https://uri.etsi.org/ngsi-ld/Relationship",
-                "@id": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/room/context.jsonld"
-            }
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "name": "https://smartdatamodels.org/name",
+        "description": "http://purl.org/dc/terms/description",
+        "refPilot": {
+            "@id": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/pilot/context.jsonld",
+            "@type": "ngsi-ld:Relationship"
         },
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
-    ]
+        "refRoom": {
+            "@id": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/room/context.jsonld",
+            "@type": "ngsi-ld:Relationship"
+        },
+        "activePower": "https://smartdatamodels.org/dataModel.Energy/totalActivePower",
+        "fanLevel": {
+            "@id": "fanLevel",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@min": 0,
+            "@max": 10
+        },
+        "filters": {
+            "@context": "https://raw.githubusercontent.com/balbert-etraid/twinair/main/models/fsystems/filter/context.jsonld",
+            "@type": "@json",
+            "@container": "@set"
+        },
+        "observationDateTime": "https://smartdatamodels.org/dataModel.Environment/observationDateTime"
+    }
 }
